@@ -68,7 +68,7 @@ const App = () => {
       location.coordinates.lat,
       location.coordinates.lng
     );
-    console.log(distance.toFixed(2) + "km");
+     window.alert(distance.toFixed(2) + "km")
   };
 
   useEffect(() => {
